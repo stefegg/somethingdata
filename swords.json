@@ -1,0 +1,9 @@
+{
+"weapons": {
+  "swords": {
+      "Broadsword": { "atk": 4, "cost": 200 },
+      "Longsword": { "atk": 5, "cost": 900 },
+      "Iron Sword": { "atk": 6, "cost": 900 }
+      }
+  }
+}

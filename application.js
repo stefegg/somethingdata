@@ -3,7 +3,7 @@ function getBow() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      var myBows = JSON.parse(this.responseText);
+      myBows = JSON.parse(this.responseText);
       }
 
     };
@@ -32,7 +32,7 @@ function showSilver(myBows){
 	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
 }
 
-function showIce(){
+function showIce(myBows){
 	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.IceBow.name;
 	let atTack = myBows.weapons.bows.IceBow.atk;
 	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
