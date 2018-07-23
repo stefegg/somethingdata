@@ -1,9 +1,9 @@
 {
-"weapons" : {
-  "bows" : {
-  "Longbow" : {"atk": 4, "cost": 800, "element": "none"},
-  "Silver Bow" : {"atk": 5, "cost": 1500, "element": "none"},
-  "Ice Bow" : {"atk": 5, "cost": 2000, "element": "Ice"},
+"weapons": {
+  "bows": {
+  "Longbow": {"atk": 4, "cost": 800, "element": "none"},
+  "Silver Bow": {"atk": 5, "cost": 1500, "element": "none"},
+  "Ice Bow": {"atk": 5, "cost": 2000, "element": "Ice"}
   }
 }
 }
