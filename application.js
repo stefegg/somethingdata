@@ -21,10 +21,10 @@ function showLong(){
 }
 
 function showSilver(){
-	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.Silver_Bow.name;
-	let atTack = myBows.weapons.bows.Silver_Bow.atk;
+	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.SilverBow.name;
+	let atTack = myBows.weapons.bows.SilverBow.atk;
 	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
-	let cOst = myBows.weapons.bows.Silver_Bow.cost;
+	let cOst = myBows.weapons.bows.SilverBow.cost;
 	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
 }
 
