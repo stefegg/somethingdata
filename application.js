@@ -11,7 +11,19 @@ function getBow() {
   xhttp.send();
 }
 
+function getSword() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      mySwords = JSON.parse(this.responseText);
+      }
 
+    };
+  xhttp.open("GET", "https://raw.githubusercontent.com/stefegg/somethingdata/master/swords.json", true);
+  xhttp.send();
+}
+
+getSword();
 getBow();
 // showLong();
 
