@@ -2,8 +2,8 @@
 "weapons": {
   "bows": {
   "Longbow": {"name": "Longbow", "atk": 4, "cost": 800},
-  "Silver Bow": {"atk": 5, "cost": 1500},
-  "Ice Bow": {"atk": 5, "cost": 2000}
+  "Silver Bow": {"name": "Silver Bow", "atk": 5, "cost": 1500},
+  "Ice Bow": {"name": "Ice Bow", "atk": 5, "cost": 2000}
   }
 }
 }

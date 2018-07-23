@@ -12,4 +12,26 @@ function getBow() {
 
 getBows = getBow();
 
-a = document.getElementById('weaponName').innerHTML = myBows.weapons.bows.Longbow;
+function showLong(){
+	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.Longbow.name;
+	let atTack = myBows.weapons.bows.Longbow.atk;
+	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
+	let cOst = myBows.weapons.bows.Longbow.cost;
+	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
+}
+
+function showSilver(){
+	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.Silver_Bow.name;
+	let atTack = myBows.weapons.bows.Silver_Bow.atk;
+	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
+	let cOst = myBows.weapons.bows.Silver_Bow.cost;
+	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
+}
+
+function showIce(){
+	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.Longbow.name;
+	let atTack = myBows.weapons.bows.Longbow.atk;
+	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
+	let cOst = myBows.weapons.bows.Longbow.cost;
+	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
+}
