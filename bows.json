@@ -1,0 +1,16 @@
+{
+"weapons": {
+  "bows": {
+  "Longbow": {"atk": 4, "cost": 800, "element": "none"},
+  "Silver Bow": {"atk": 5, "cost": 1500, "element": "none"},
+  "Ice Bow": {"atk": 5, "cost": 2000, "element": "Ice"},
+  "Lightning Bow": {"atk": 6, "cost": 2000, "element": "Thunder"},
+  "Mythril Bow": {"atk": 7, "cost": 2000, "element": "none"},
+  "Windslash Bow": {"atk": 8, "cost": 2000, "element": "Wind"},
+  "Artemis Bow": {"atk": 10, "cost": 2000, "element": "none"},
+  "Yoichi Bow": {"atk": 12, "cost": 2000, "element": "none"},
+  "Perseus Bow": {"atk": 16, "cost": 2000, "element": "none"},
+  "Sagittarius Bow": {"atk": 24, "cost": 2000, "element": "none"},
+  }
+}
+}
