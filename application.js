@@ -1,4 +1,4 @@
-// myBows = [];
+myBows = [];
 weaponStuff = [];
 
 // function getBow() {
@@ -14,7 +14,7 @@ weaponStuff = [];
 
 
 
-function showWeapon(id){
-  document.getElementbyId('waeponName').innerHTML = allBows[id].weapons.bows.name;
-
-}
+// function showWeapon(id){
+//   document.getElementbyId('waeponName').innerHTML = allBows[id].weapons.bows.name;
+//
+// }
