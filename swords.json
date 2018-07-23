@@ -3,7 +3,7 @@
   "swords": {
       "Broadsword": {"name": "Broadsword", "atk": 4, "cost": 200 },
       "Longsword": {"name": "Longsword", "atk": 5, "cost": 900 },
-      "IronSword": {"name": "Iron Sword", "atk": 6, "cost": 900 }
+      "IronSword": {"name": "Iron Sword", "atk": 6, "cost": 1000 }
       }
   }
 }

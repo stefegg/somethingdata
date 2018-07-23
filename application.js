@@ -51,3 +51,27 @@ function showIce(myBows){
 	let cOst = myBows.weapons.bows.IceBow.cost;
 	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
 }
+
+function showBroad(mySwords){
+	document.getElementById('weaponName').innerHTML = mySwords.weapons.swords.Broadsword.name;
+	let atTack = mySwords.weapons.swords.Broadsword.atk;
+	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
+	let cOst = mySwords.weapons.swords.Broadsword.cost;
+	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
+}
+
+function showLongsword(mySwords){
+	document.getElementById('weaponName').innerHTML = mySwords.weapons.swords.Longsword.name;
+	let atTack = mySwords.weapons.swords.Longsword.atk;
+	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
+	let cOst = mySwords.weapons.swords.Longsword.cost;
+	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
+}
+
+function showIronsword(mySwords){
+	document.getElementById('weaponName').innerHTML = mySwords.weapons.swords.IronSword.name;
+	let atTack = mySwords.weapons.swords.IronSword.atk;
+	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
+	let cOst = mySwords.weapons.swords.IronSword.cost;
+	document.getElementById('cost').innerHTML = `Cost: ${cOst} gil`;
+}
