@@ -1,4 +1,5 @@
 
+
 function getBow() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -25,9 +26,9 @@ function getSword() {
 
 getSword();
 getBow();
-// showLong();
 
-function showLong(myBows){
+
+function showLong(){
 	document.getElementById('weaponName').innerHTML = myBows.weapons.bows.Longbow.name;
 	let atTack = myBows.weapons.bows.Longbow.atk;
 	document.getElementById('atk').innerHTML = `Attack: ${atTack}`;
